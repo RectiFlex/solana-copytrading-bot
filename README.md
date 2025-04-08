@@ -7,7 +7,7 @@ A powerful and customizable copytrading bot built in **C#** for the **Solana blo
 -  **Real-Time Transaction Monitoring**  
   Monitor blockchain activity from selected wallets and copy their trades instantly.
 
-- 🎛 **Customizable Filters**  
+-  **Customizable Filters**  
   Fine-tune what types of transactions to follow:
   - Swaps
   - Transfers
@@ -40,7 +40,7 @@ A powerful and customizable copytrading bot built in **C#** for the **Solana blo
   - BonkBot
   - Banana Gun
 
-## ⚙️ Configuration
+##  Configuration
 
 All settings are fully configurable through a JSON or UI interface (if implemented). Below are the primary config options:
 
@@ -76,7 +76,7 @@ All settings are fully configurable through a JSON or UI interface (if implement
 - Platforms:Raydium, pump.fun, moonshot, photon, GMGN, BonkBot, Banana Gun
 - Data Sources: On-chain TX monitoring, WebSocket feeds, RPC nodes
 
-## 🧪 Getting Started
+##  Getting Started
 
 1. Clone the repo  
    ```bash
@@ -97,7 +97,7 @@ All settings are fully configurable through a JSON or UI interface (if implement
    dotnet run
    ```
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This tool is provided for **educational and research purposes only**. Use at your own risk. Trading cryptocurrencies carries risk and can lead to significant financial loss.
 
