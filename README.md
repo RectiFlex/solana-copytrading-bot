@@ -76,13 +76,6 @@ All settings are fully configurable through a JSON or UI interface (if implement
 }
 ```
 
-## Tech Stack
-
-- Language: **C# (.NET Core)**
-- Blockchain: **Solana**
-- Platforms:Raydium, pump.fun, moonshot, photon, GMGN, BonkBot, Banana Gun
-- Data Sources: On-chain TX monitoring, WebSocket feeds, RPC nodes
-
 ##  Disclaimer
 
 This tool is provided for **educational and research purposes only**. Use at your own risk. Trading cryptocurrencies carries risk and can lead to significant financial loss.
