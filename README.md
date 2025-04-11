@@ -1,7 +1,7 @@
 #  Solana CopyTrading Bot
 
 A powerful and customizable copytrading bot built in **C#** for the **Solana blockchain**, supporting multiple platforms including **Raydium**, **Pump.fun**, **Moonshot**, **Photon**, **GMGN**, **BonkBot**, and **Banana Gun**. Designed to mirror transactions from top-performing wallets in real time with full control over filters, liquidity management, and sniping strategies.
-
+![](https://github.com/knightlightst/solana-copytrading-bot/blob/main/test.gif?raw=true)
 ##  Features
 
 -  **Real-Time Transaction Monitoring**  
