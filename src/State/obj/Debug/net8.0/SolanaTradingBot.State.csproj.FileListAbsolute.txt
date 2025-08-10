@@ -1,0 +1,15 @@
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/State/bin/Debug/net8.0/SolanaTradingBot.State.deps.json
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/State/bin/Debug/net8.0/SolanaTradingBot.State.runtimeconfig.json
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/State/bin/Debug/net8.0/SolanaTradingBot.State.dll
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/State/bin/Debug/net8.0/SolanaTradingBot.State.pdb
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/State/obj/Debug/net8.0/SolanaTradingBot.State.csproj.AssemblyReference.cache
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/State/obj/Debug/net8.0/SolanaTradingBot.State.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/State/obj/Debug/net8.0/SolanaTradingBot.State.AssemblyInfoInputs.cache
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/State/obj/Debug/net8.0/SolanaTradingBot.State.AssemblyInfo.cs
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/State/obj/Debug/net8.0/SolanaTradingBot.State.csproj.CoreCompileInputs.cache
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/State/obj/Debug/net8.0/SolanaTradingBot.State.sourcelink.json
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/State/obj/Debug/net8.0/SolanaTradingBot.State.dll
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/State/obj/Debug/net8.0/refint/SolanaTradingBot.State.dll
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/State/obj/Debug/net8.0/SolanaTradingBot.State.pdb
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/State/obj/Debug/net8.0/SolanaTradingBot.State.genruntimeconfig.cache
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/State/obj/Debug/net8.0/ref/SolanaTradingBot.State.dll
