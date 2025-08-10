@@ -113,21 +113,68 @@ All trading parameters are configurable via `appsettings.json`:
 
 ### Prerequisites
 - .NET 8 SDK
-- Helius API key for WebSocket access
+- Helius API key for RPC and WebSocket access
+- Solana wallet (keypair file or environment variable)
 - Optional: Birdeye API key for enhanced market data
 
 ### Setup
 1. Clone the repository
-2. Configure API keys in `appsettings.Development.json`
-3. Build the solution: `dotnet build`
-4. Run in paper trading mode: `dotnet run --project src/CLI -- paper`
+2. Copy `.env.example` to `.env` and configure:
+   ```bash
+   cp .env.example .env
+   # Edit .env with your Helius endpoints and wallet settings
+   ```
+3. Export environment variables (see `docs/Helius-and-env-setup.md` for details)
+4. Build the solution: `dotnet build`
+5. Start with paper trading: `dotnet run --project src/CLI -- paper`
 
 ### CLI Commands
 - `paper` - Paper trading with simulated fills
-- `start` - Live trading (requires wallet setup)
-- `backtest` - Historical strategy testing
-- `report` - Daily P&L and performance metrics
+- `start [--yes]` - Live trading (⚠️ requires wallet setup and real funds)
 - `watch` - Live market monitoring
+- `test` - System tests for API connectivity
+- `show-balances` - Display wallet SOL and token balances
+- `ensure-atas` - Ensure associated token accounts exist
+- `canary` - Run a small test trade to validate pipeline
+- `help` - Show command help
+
+### Live Trading Setup
+**⚠️ WARNING: Live trading uses real money! Start with paper trading first.**
+
+1. **Get a Helius API key** from [helius.dev](https://helius.dev)
+2. **Create or import a Solana wallet**:
+   ```bash
+   # Create new wallet
+   solana-keygen new -o my-wallet.json
+   
+   # Or use existing wallet
+   cp ~/.config/solana/id.json my-wallet.json
+   ```
+3. **Configure environment**:
+   ```bash
+   # Set Helius endpoints
+   export Helius__Http="https://mainnet.helius-rpc.com/?api-key=YOUR_KEY"
+   export Helius__Ws="wss://atlas-mainnet.helius-rpc.com/?api-key=YOUR_KEY"
+   
+   # Set wallet (option 1: file)
+   export WALLET__SOURCE=File
+   export WALLET__KEYFILE=/absolute/path/to/my-wallet.json
+   
+   # Or wallet (option 2: environment variable)
+   export WALLET__SOURCE=Env
+   export WALLET__PRIVATE_KEY_JSON="[1,2,3,...]"  # Contents of wallet JSON
+   ```
+4. **Verify setup**:
+   ```bash
+   dotnet run --project src/CLI -- show-balances
+   dotnet run --project src/CLI -- ensure-atas
+   ```
+5. **Start live trading**:
+   ```bash
+   dotnet run --project src/CLI -- start --yes
+   ```
+
+For detailed setup instructions, see `docs/Helius-and-env-setup.md`.
 
 ## 📊 Trading Strategy Details
 
@@ -204,13 +251,17 @@ This bot **NO LONGER** supports copy-trading functionality. Key changes:
 - **Never risk more than you can afford to lose**
 
 ### Development Status
-This is a comprehensive refactor with the following status:
+This implementation provides end-to-end live trading capability:
 - ✅ **Core architecture**: Complete and functional
 - ✅ **Discovery system**: Implemented with simulation
 - ✅ **Trading strategies**: All three sleeves implemented
 - ✅ **Risk management**: Comprehensive safety systems
-- ⚠️ **Real trading**: Requires wallet integration and testing
-- ⚠️ **Production**: Needs thorough testing and monitoring
+- ✅ **Wallet integration**: Solana keypair support with env/file loading
+- ✅ **Execution pipeline**: Jupiter swap integration with simulation
+- ✅ **Live trading**: Ready for real trades with safety guardrails
+- ✅ **CLI commands**: Full suite including balance checks and canary mode
+- ⚠️ **Production monitoring**: Basic health checks implemented
+- ⚠️ **Advanced features**: MEV/Jito integration stubs only
 
 ## 🤝 Contributing
 
