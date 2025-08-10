@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Chaos.NaCl.Standard/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Chaos.NaCl.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Chaos.NaCl.dll": {}
+        }
+      },
       "Microsoft.Data.Sqlite.Core/9.0.8": {
         "type": "package",
         "dependencies": {
@@ -784,6 +793,19 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Portable.BouncyCastle/1.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Refit/8.0.0": {
         "type": "package",
         "compile": {
@@ -880,6 +902,57 @@
         },
         "runtime": {
           "lib/net8.0/Serilog.Sinks.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Solnet.Programs/6.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Solnet.Rpc": "6.1.0"
+        },
+        "compile": {
+          "lib/net6.0/Solnet.Programs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Solnet.Programs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Solnet.Rpc/6.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "Microsoft.Extensions.Logging.Console": "6.0.0",
+          "Solnet.Wallet": "6.1.0"
+        },
+        "compile": {
+          "lib/net6.0/Solnet.Rpc.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Solnet.Rpc.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Solnet.Wallet/6.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Chaos.NaCl.Standard": "1.0.0",
+          "Portable.BouncyCastle": "1.9.0"
+        },
+        "compile": {
+          "lib/net6.0/Solnet.Wallet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Solnet.Wallet.dll": {
             "related": ".xml"
           }
         }
@@ -1192,6 +1265,26 @@
           "bin/placeholder/SolanaTradingBot.Engine.dll": {}
         }
       },
+      "SolanaTradingBot.Execution/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.8",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.8",
+          "Microsoft.Extensions.Options": "9.0.8",
+          "SolanaTradingBot.Common": "1.0.0",
+          "SolanaTradingBot.Discovery": "1.0.0",
+          "Solnet.Programs": "6.1.0",
+          "Solnet.Rpc": "6.1.0",
+          "Solnet.Wallet": "6.1.0"
+        },
+        "compile": {
+          "bin/placeholder/SolanaTradingBot.Execution.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SolanaTradingBot.Execution.dll": {}
+        }
+      },
       "SolanaTradingBot.State/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1208,6 +1301,18 @@
     }
   },
   "libraries": {
+    "Chaos.NaCl.Standard/1.0.0": {
+      "sha512": "8ajPyzu49LSIdPgeg56eDdKu1j8FZJngKgTn9rXHV3GNVly49XFvPAwoWuUT8xPze3OjVUOWQZaO82HWrYFFEw==",
+      "type": "package",
+      "path": "chaos.nacl.standard/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "chaos.nacl.standard.1.0.0.nupkg.sha512",
+        "chaos.nacl.standard.nuspec",
+        "lib/netstandard2.0/Chaos.NaCl.dll"
+      ]
+    },
     "Microsoft.Data.Sqlite.Core/9.0.8": {
       "sha512": "AQr1nLGi1riN7XA2c8uAKAr2fo7bvZ++VRnvKyh/rhsj2f4x0Nmgk2j8+Rw9RaJrzZMcv0Mu4nYNpAdSui/FHw==",
       "type": "package",
@@ -2266,6 +2371,21 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Portable.BouncyCastle/1.9.0": {
+      "sha512": "eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
+      "type": "package",
+      "path": "portable.bouncycastle/1.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/BouncyCastle.Crypto.dll",
+        "lib/net40/BouncyCastle.Crypto.xml",
+        "lib/netstandard2.0/BouncyCastle.Crypto.dll",
+        "lib/netstandard2.0/BouncyCastle.Crypto.xml",
+        "portable.bouncycastle.1.9.0.nupkg.sha512",
+        "portable.bouncycastle.nuspec"
+      ]
+    },
     "Refit/8.0.0": {
       "sha512": "gXRmIy3Va0mwwr8usnqVRQFoFIJaJGlWTTXBlwxIkHB/xwXnq1Ybs1YNA2BM1O4G46JLLlGjg6YOwrTZusuY3Q==",
       "type": "package",
@@ -2407,6 +2527,48 @@
         "lib/netstandard2.0/Serilog.Sinks.Console.xml",
         "serilog.sinks.console.6.0.0.nupkg.sha512",
         "serilog.sinks.console.nuspec"
+      ]
+    },
+    "Solnet.Programs/6.1.0": {
+      "sha512": "q48c+KUaA+wpa/Fi3Q+tKiDwNIRlYEilwJcqOqVFqO8bC6nn2EYQRVxs8myEjBblsm+t2B5aCSS7Py+HAl9pEA==",
+      "type": "package",
+      "path": "solnet.programs/6.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/Solnet.Programs.dll",
+        "lib/net6.0/Solnet.Programs.xml",
+        "solnet.programs.6.1.0.nupkg.sha512",
+        "solnet.programs.nuspec"
+      ]
+    },
+    "Solnet.Rpc/6.1.0": {
+      "sha512": "vTAT+WlWgamnRbfRBbV018aWiDXeXDCr7iBTOqIEpiZ4in2IfXC+K4upIPvL3H0KOSpApjVWm3mbuN4kao5IVQ==",
+      "type": "package",
+      "path": "solnet.rpc/6.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/Solnet.Rpc.dll",
+        "lib/net6.0/Solnet.Rpc.xml",
+        "solnet.rpc.6.1.0.nupkg.sha512",
+        "solnet.rpc.nuspec"
+      ]
+    },
+    "Solnet.Wallet/6.1.0": {
+      "sha512": "qAacwo1RegP36lMqs5wIuvF5FIKUS3KWqbg0NfQMALwtAK040wDePRjxBmP/ovvx+UkWTx6FXRlSq0yXaKiolA==",
+      "type": "package",
+      "path": "solnet.wallet/6.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/Solnet.Wallet.dll",
+        "lib/net6.0/Solnet.Wallet.xml",
+        "solnet.wallet.6.1.0.nupkg.sha512",
+        "solnet.wallet.nuspec"
       ]
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.10": {
@@ -2734,6 +2896,11 @@
       "path": "../Engine/SolanaTradingBot.Engine.csproj",
       "msbuildProject": "../Engine/SolanaTradingBot.Engine.csproj"
     },
+    "SolanaTradingBot.Execution/1.0.0": {
+      "type": "project",
+      "path": "../Execution/SolanaTradingBot.Execution.csproj",
+      "msbuildProject": "../Execution/SolanaTradingBot.Execution.csproj"
+    },
     "SolanaTradingBot.State/1.0.0": {
       "type": "project",
       "path": "../State/SolanaTradingBot.State.csproj",
@@ -2752,6 +2919,7 @@
       "SolanaTradingBot.DataVendors >= 1.0.0",
       "SolanaTradingBot.Discovery >= 1.0.0",
       "SolanaTradingBot.Engine >= 1.0.0",
+      "SolanaTradingBot.Execution >= 1.0.0",
       "SolanaTradingBot.State >= 1.0.0"
     ]
   },
@@ -2791,6 +2959,9 @@
             },
             "/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Engine/SolanaTradingBot.Engine.csproj": {
               "projectPath": "/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Engine/SolanaTradingBot.Engine.csproj"
+            },
+            "/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Execution/SolanaTradingBot.Execution.csproj": {
+              "projectPath": "/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Execution/SolanaTradingBot.Execution.csproj"
             },
             "/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/State/SolanaTradingBot.State.csproj": {
               "projectPath": "/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/State/SolanaTradingBot.State.csproj"

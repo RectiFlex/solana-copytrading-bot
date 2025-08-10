@@ -21,6 +21,7 @@
     <ProjectReference Include="..\Discovery\SolanaTradingBot.Discovery.csproj" />
     <ProjectReference Include="..\DataVendors\SolanaTradingBot.DataVendors.csproj" />
     <ProjectReference Include="..\Engine\SolanaTradingBot.Engine.csproj" />
+    <ProjectReference Include="..\Execution\SolanaTradingBot.Execution.csproj" />
     <ProjectReference Include="..\State\SolanaTradingBot.State.csproj" />
   </ItemGroup>
 
