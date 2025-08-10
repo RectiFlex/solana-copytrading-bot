@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Engine\SolanaTradingBot.Engine.csproj" />
+    <ProjectReference Include="..\Common\SolanaTradingBot.Common.csproj" />
   </ItemGroup>
 
 </Project>

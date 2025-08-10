@@ -11,3 +11,12 @@
 /home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Engine/obj/Debug/net8.0/refint/SolanaTradingBot.Engine.dll
 /home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Engine/obj/Debug/net8.0/SolanaTradingBot.Engine.pdb
 /home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Engine/obj/Debug/net8.0/ref/SolanaTradingBot.Engine.dll
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Engine/bin/Debug/net8.0/SolanaTradingBot.Common.dll
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Engine/bin/Debug/net8.0/SolanaTradingBot.DataVendors.dll
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Engine/bin/Debug/net8.0/SolanaTradingBot.Discovery.dll
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Engine/bin/Debug/net8.0/SolanaTradingBot.State.dll
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Engine/bin/Debug/net8.0/SolanaTradingBot.State.pdb
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Engine/bin/Debug/net8.0/SolanaTradingBot.DataVendors.pdb
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Engine/bin/Debug/net8.0/SolanaTradingBot.Discovery.pdb
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Engine/bin/Debug/net8.0/SolanaTradingBot.Common.pdb
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Engine/obj/Debug/net8.0/SolanaTradingBot.Engine.csproj.CopyComplete

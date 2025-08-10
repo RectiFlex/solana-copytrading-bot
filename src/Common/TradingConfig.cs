@@ -1,4 +1,4 @@
-﻿namespace SolanaTradingBot.Engine;
+﻿namespace SolanaTradingBot.Common;
 
 public class BankrollConfig
 {

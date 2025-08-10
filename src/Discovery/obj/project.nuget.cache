@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9k18SUpeHxO1H6EOjjUVzUcqBx2oKRAZGsxfEMjYdaPdFkgAA2HhqVHxon7B3UrwiBYaZY40R9nfW5Yj4iFSWw==",
+  "dgSpecHash": "DWbwQOZytYLffkt9fxQw5b6QkM4OKUnF5fejQEMdsYDA8UpCprwHcaBAXFdUjKspm/CO2eER+fJX5SkB+bpHew==",
   "success": true,
   "projectFilePath": "/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Discovery/SolanaTradingBot.Discovery.csproj",
   "expectedPackageFiles": [

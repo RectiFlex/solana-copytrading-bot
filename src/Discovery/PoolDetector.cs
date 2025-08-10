@@ -1,7 +1,7 @@
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using SolanaTradingBot.Engine;
+using SolanaTradingBot.Common;
 using System.Text.Json;
 
 namespace SolanaTradingBot.Discovery;

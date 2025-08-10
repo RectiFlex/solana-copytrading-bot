@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using SolanaTradingBot.Engine;
+using SolanaTradingBot.Common;
 
 namespace SolanaTradingBot.DataVendors;
 

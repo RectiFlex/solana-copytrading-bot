@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tXHnnOUKE+AURD9laKwSRSMN+PZZbOFiyfJnyH80QzqatlRNQc0mjyLT1ILZrokYb9gK6K+3FoEZ2D7+l4ITkg==",
+  "dgSpecHash": "qgpAmwDzVIhsL67/WOzy37cLrGmxUcNHuUW76pFlVvbvVzxyFV80OpZy4imI9T/5UyACOZcea74+nGA9LGJGpQ==",
   "success": true,
   "projectFilePath": "/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/DataVendors/SolanaTradingBot.DataVendors.csproj",
   "expectedPackageFiles": [

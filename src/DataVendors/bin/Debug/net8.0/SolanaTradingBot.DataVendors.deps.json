@@ -11,7 +11,7 @@
           "Microsoft.Extensions.Http": "9.0.8",
           "Microsoft.Extensions.Logging.Abstractions": "9.0.8",
           "Refit": "8.0.0",
-          "SolanaTradingBot.Engine": "1.0.0"
+          "SolanaTradingBot.Common": "1.0.0"
         },
         "runtime": {
           "SolanaTradingBot.DataVendors.dll": {}
@@ -188,13 +188,13 @@
           }
         }
       },
-      "SolanaTradingBot.Engine/1.0.0": {
+      "SolanaTradingBot.Common/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.8",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.8"
         },
         "runtime": {
-          "SolanaTradingBot.Engine.dll": {}
+          "SolanaTradingBot.Common.dll": {}
         }
       }
     }
@@ -310,7 +310,7 @@
       "path": "system.diagnostics.diagnosticsource/9.0.8",
       "hashPath": "system.diagnostics.diagnosticsource.9.0.8.nupkg.sha512"
     },
-    "SolanaTradingBot.Engine/1.0.0": {
+    "SolanaTradingBot.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

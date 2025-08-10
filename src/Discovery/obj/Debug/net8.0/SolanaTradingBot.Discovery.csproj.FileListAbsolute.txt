@@ -10,7 +10,7 @@
 /home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Discovery/obj/Debug/net8.0/refint/SolanaTradingBot.Discovery.dll
 /home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Discovery/obj/Debug/net8.0/SolanaTradingBot.Discovery.pdb
 /home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Discovery/obj/Debug/net8.0/ref/SolanaTradingBot.Discovery.dll
-/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Discovery/bin/Debug/net8.0/SolanaTradingBot.Engine.dll
-/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Discovery/bin/Debug/net8.0/SolanaTradingBot.Engine.pdb
 /home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Discovery/obj/Debug/net8.0/SolanaTradingBot.Discovery.csproj.AssemblyReference.cache
 /home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Discovery/obj/Debug/net8.0/SolanaTradingBot.Discovery.csproj.CopyComplete
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Discovery/bin/Debug/net8.0/SolanaTradingBot.Common.dll
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Discovery/bin/Debug/net8.0/SolanaTradingBot.Common.pdb

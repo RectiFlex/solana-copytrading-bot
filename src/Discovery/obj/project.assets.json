@@ -272,7 +272,7 @@
           "buildTransitive/net8.0/System.Text.Json.targets": {}
         }
       },
-      "SolanaTradingBot.Engine/1.0.0": {
+      "SolanaTradingBot.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -280,10 +280,10 @@
           "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.8"
         },
         "compile": {
-          "bin/placeholder/SolanaTradingBot.Engine.dll": {}
+          "bin/placeholder/SolanaTradingBot.Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/SolanaTradingBot.Engine.dll": {}
+          "bin/placeholder/SolanaTradingBot.Common.dll": {}
         }
       }
     }
@@ -801,17 +801,17 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "SolanaTradingBot.Engine/1.0.0": {
+    "SolanaTradingBot.Common/1.0.0": {
       "type": "project",
-      "path": "../Engine/SolanaTradingBot.Engine.csproj",
-      "msbuildProject": "../Engine/SolanaTradingBot.Engine.csproj"
+      "path": "../Common/SolanaTradingBot.Common.csproj",
+      "msbuildProject": "../Common/SolanaTradingBot.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.Extensions.Hosting.Abstractions >= 9.0.8",
       "Microsoft.Extensions.Logging.Abstractions >= 9.0.8",
-      "SolanaTradingBot.Engine >= 1.0.0",
+      "SolanaTradingBot.Common >= 1.0.0",
       "System.Text.Json >= 9.0.8"
     ]
   },
@@ -840,8 +840,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Engine/SolanaTradingBot.Engine.csproj": {
-              "projectPath": "/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Engine/SolanaTradingBot.Engine.csproj"
+            "/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Common/SolanaTradingBot.Common.csproj": {
+              "projectPath": "/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Common/SolanaTradingBot.Common.csproj"
             }
           }
         }
