@@ -18,10 +18,19 @@
           "SolanaTradingBot.DataVendors": "1.0.0",
           "SolanaTradingBot.Discovery": "1.0.0",
           "SolanaTradingBot.Engine": "1.0.0",
+          "SolanaTradingBot.Execution": "1.0.0",
           "SolanaTradingBot.State": "1.0.0"
         },
         "runtime": {
           "SolanaTradingBot.CLI.dll": {}
+        }
+      },
+      "Chaos.NaCl.Standard/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Chaos.NaCl.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Microsoft.Data.Sqlite.Core/9.0.8": {
@@ -520,6 +529,14 @@
           }
         }
       },
+      "Portable.BouncyCastle/1.9.0": {
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.9.0.0",
+            "fileVersion": "1.9.0.1"
+          }
+        }
+      },
       "Refit/8.0.0": {
         "runtime": {
           "lib/net8.0/Refit.dll": {
@@ -583,6 +600,42 @@
           "lib/net8.0/Serilog.Sinks.Console.dll": {
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "Solnet.Programs/6.1.0": {
+        "dependencies": {
+          "Solnet.Rpc": "6.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/Solnet.Programs.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
+          }
+        }
+      },
+      "Solnet.Rpc/6.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "9.0.8",
+          "Microsoft.Extensions.Logging.Console": "9.0.8",
+          "Solnet.Wallet": "6.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/Solnet.Rpc.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
+          }
+        }
+      },
+      "Solnet.Wallet/6.1.0": {
+        "dependencies": {
+          "Chaos.NaCl.Standard": "1.0.0",
+          "Portable.BouncyCastle": "1.9.0"
+        },
+        "runtime": {
+          "lib/net6.0/Solnet.Wallet.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.0.0"
           }
         }
       },
@@ -840,6 +893,21 @@
           "SolanaTradingBot.Engine.dll": {}
         }
       },
+      "SolanaTradingBot.Execution/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.8",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.8",
+          "Microsoft.Extensions.Options": "9.0.8",
+          "SolanaTradingBot.Common": "1.0.0",
+          "SolanaTradingBot.Discovery": "1.0.0",
+          "Solnet.Programs": "6.1.0",
+          "Solnet.Rpc": "6.1.0",
+          "Solnet.Wallet": "6.1.0"
+        },
+        "runtime": {
+          "SolanaTradingBot.Execution.dll": {}
+        }
+      },
       "SolanaTradingBot.State/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Sqlite": "9.0.8"
@@ -855,6 +923,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Chaos.NaCl.Standard/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8ajPyzu49LSIdPgeg56eDdKu1j8FZJngKgTn9rXHV3GNVly49XFvPAwoWuUT8xPze3OjVUOWQZaO82HWrYFFEw==",
+      "path": "chaos.nacl.standard/1.0.0",
+      "hashPath": "chaos.nacl.standard.1.0.0.nupkg.sha512"
     },
     "Microsoft.Data.Sqlite.Core/9.0.8": {
       "type": "package",
@@ -1122,6 +1197,13 @@
       "path": "microsoft.extensions.primitives/9.0.8",
       "hashPath": "microsoft.extensions.primitives.9.0.8.nupkg.sha512"
     },
+    "Portable.BouncyCastle/1.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
+      "path": "portable.bouncycastle/1.9.0",
+      "hashPath": "portable.bouncycastle.1.9.0.nupkg.sha512"
+    },
     "Refit/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1163,6 +1245,27 @@
       "sha512": "sha512-fQGWqVMClCP2yEyTXPIinSr5c+CBGUvBybPxjAGcf7ctDhadFhrQw03Mv8rJ07/wR5PDfFjewf2LimvXCDzpbA==",
       "path": "serilog.sinks.console/6.0.0",
       "hashPath": "serilog.sinks.console.6.0.0.nupkg.sha512"
+    },
+    "Solnet.Programs/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q48c+KUaA+wpa/Fi3Q+tKiDwNIRlYEilwJcqOqVFqO8bC6nn2EYQRVxs8myEjBblsm+t2B5aCSS7Py+HAl9pEA==",
+      "path": "solnet.programs/6.1.0",
+      "hashPath": "solnet.programs.6.1.0.nupkg.sha512"
+    },
+    "Solnet.Rpc/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vTAT+WlWgamnRbfRBbV018aWiDXeXDCr7iBTOqIEpiZ4in2IfXC+K4upIPvL3H0KOSpApjVWm3mbuN4kao5IVQ==",
+      "path": "solnet.rpc/6.1.0",
+      "hashPath": "solnet.rpc.6.1.0.nupkg.sha512"
+    },
+    "Solnet.Wallet/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qAacwo1RegP36lMqs5wIuvF5FIKUS3KWqbg0NfQMALwtAK040wDePRjxBmP/ovvx+UkWTx6FXRlSq0yXaKiolA==",
+      "path": "solnet.wallet/6.1.0",
+      "hashPath": "solnet.wallet.6.1.0.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.10": {
       "type": "package",
@@ -1250,6 +1353,11 @@
       "sha512": ""
     },
     "SolanaTradingBot.Engine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SolanaTradingBot.Execution/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

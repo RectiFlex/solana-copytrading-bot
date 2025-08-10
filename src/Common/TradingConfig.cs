@@ -96,6 +96,20 @@ public class AlertsConfig
     public TelegramConfig Telegram { get; set; } = new() { BotToken = "", ChatId = "" };
 }
 
+public enum WalletSource
+{
+    Env,
+    File
+}
+
+public class WalletConfig
+{
+    public WalletSource Source { get; set; } = WalletSource.File;
+    public string KeyFile { get; set; } = "";
+    public string PrivateKeyJson { get; set; } = "";
+    public long MinSolLamports { get; set; } = 5_000_000; // ~0.005 SOL
+}
+
 public class TradingConfig
 {
     public BankrollConfig Bankroll { get; set; } = new();
@@ -108,4 +122,5 @@ public class TradingConfig
     public HeliusConfig Helius { get; set; } = new() { Http = "", Ws = "" };
     public JitoConfig Jito { get; set; } = new();
     public AlertsConfig Alerts { get; set; } = new() { DiscordWebhook = "" };
+    public WalletConfig Wallet { get; set; } = new();
 }

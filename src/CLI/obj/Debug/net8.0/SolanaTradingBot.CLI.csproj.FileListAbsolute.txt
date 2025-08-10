@@ -99,3 +99,10 @@
 /home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/CLI/bin/Debug/net8.0/SolanaTradingBot.Engine.pdb
 /home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/CLI/bin/Debug/net8.0/SolanaTradingBot.State.pdb
 /home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/CLI/obj/Debug/net8.0/SolanaTradingBot.CLI.csproj.CopyComplete
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/CLI/bin/Debug/net8.0/Chaos.NaCl.dll
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/CLI/bin/Debug/net8.0/BouncyCastle.Crypto.dll
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/CLI/bin/Debug/net8.0/Solnet.Programs.dll
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/CLI/bin/Debug/net8.0/Solnet.Rpc.dll
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/CLI/bin/Debug/net8.0/Solnet.Wallet.dll
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/CLI/bin/Debug/net8.0/SolanaTradingBot.Execution.dll
+/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/CLI/bin/Debug/net8.0/SolanaTradingBot.Execution.pdb
