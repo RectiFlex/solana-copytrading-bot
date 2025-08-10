@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SolanaTradingBot.Execution")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b03f1fec5310d9a86768aa99c538d2364a732a71")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac730abe60ca61855925a00531cc49a672718ab3")]
 [assembly: System.Reflection.AssemblyProductAttribute("SolanaTradingBot.Execution")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SolanaTradingBot.Execution")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
