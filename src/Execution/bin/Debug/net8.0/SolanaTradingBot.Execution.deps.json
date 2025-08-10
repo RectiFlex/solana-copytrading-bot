@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SolanaTradingBot.Execution/1.0.0": {
+        "runtime": {
+          "SolanaTradingBot.Execution.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SolanaTradingBot.Execution/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

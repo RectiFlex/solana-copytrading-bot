@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "HAPBS4xkF3W738xLJbe3d/c8GmwxF4NukSrMVBAYpYYmwXIH6NhcX0EJRx/kX1cTI9i/2C13xn/Vdig01t0t+w==",
+  "success": true,
+  "projectFilePath": "/home/runner/work/solana-copytrading-bot/solana-copytrading-bot/src/Engine/SolanaTradingBot.Engine.csproj",
+  "expectedPackageFiles": [
+    "/home/runner/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.8/microsoft.extensions.configuration.abstractions.9.0.8.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.configuration.binder/9.0.8/microsoft.extensions.configuration.binder.9.0.8.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.8/microsoft.extensions.dependencyinjection.abstractions.9.0.8.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.options/9.0.8/microsoft.extensions.options.9.0.8.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.options.configurationextensions/9.0.8/microsoft.extensions.options.configurationextensions.9.0.8.nupkg.sha512",
+    "/home/runner/.nuget/packages/microsoft.extensions.primitives/9.0.8/microsoft.extensions.primitives.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
